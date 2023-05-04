@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+
+
+
+*{
+margin:auto;
+padding:0;
+box-sizing: border-box;
+font-family: 'Outfit', sans-serif;
+font-size: 15px;
+}
+
+body
+{
+background-color:hsl(30, 38%, 92%);
+color:hsl(220, 15%, 55%);
+display: flex;
+justify-content: center;
+align-items:center;
+height: 100vh;
+
+
+}
+
+
+
+main{
+    width: 46em;
+    height: 34em;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius:1em;
+}
+
+.img-parf{background-image:url(../images/image-product-desktop.jpg);
+          width: 27em;
+          height: 34em;
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          background-position:left;
+          border-radius:1em;
+}
+
+.p{
+   position: absolute;
+   color:hsl(228, 12%, 48%);
+   margin-top: 2.5em;
+   margin-left: 26em;
+   font-family:Montserrat;
+  
+}
+.g{width: 7em;
+    height: 10em;
+    color: hsl(212, 21%, 14%);
+    position: absolute;
+    margin-left: 12em;
+    margin-top:2.5em ;
+    font-family:Fraunces;
+    font-weight: 700;
+    font-size:xx-large;
+
+}
+
+.txt{width: 17em;
+    height: 10em;
+    color:hsl(228, 12%, 48%);
+    position: absolute;
+    margin-left: 24em;
+    margin-top:14em ;
+    font-family:montserrat;
+    font-weight: 500;
+    font-size:medium;
+    line-height: 1.5em;
+}
+
+.pr1{color:hsl(158, 36%, 37%);
+    width: 7em;
+    height: 10em;
+    position: absolute;
+    margin-left: 12em;
+    margin-top:11em ;
+    font-family:Fraunces;
+    font-weight: 700;
+    font-size:xx-large;
+}
+
+.pr2{color:hsl(228, 12%, 48%);
+    width: 7em;
+    height: 10em;
+    position: absolute;
+    margin-left: 34em;
+    margin-top:22.5em;
+    font-family:monsterrat;
+    text-decoration: line-through;
+    font-size:medium;
+}
+    
+.shop{width: 17em;
+    height: 3.5em;
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 28em;
+    margin-left: 25.5em;
+    border-radius: 0.8em;
+    text-align:center;
+    line-height: 3.5em; 
+    color: hsl(0, 0%, 100%);
+    font-family:montserrat;
+    background-image: url(../images/icon-cart.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position-y: center;
+    background-position-x: 4em;
+
+}
